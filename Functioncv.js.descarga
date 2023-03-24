@@ -1,0 +1,12 @@
+console. log("Mi primer cv")
+
+document.getElementById("boton_color") . addEventListener("click" , function(){
+    document.body.style.backgroundColor = "#FF33A5";
+}
+)
+
+
+document.getElementById("boton").onclick = function () {
+    console. log("capturamos el evento click");
+    document.getElementById("demo").innerHTML = "$980.000.-";
+}
